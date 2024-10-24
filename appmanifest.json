@@ -1,6 +1,6 @@
 ﻿{
-	"name": "Aventuras no Maranhão",
-	"short_name": "Aventuras no Maranhão",
+	"name": "aventurasnomaranhao",
+	"short_name": "aventurasnomaranhao",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
