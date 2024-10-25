@@ -1,11 +1,22 @@
+# Redireciona todo o tráfego HTTP e variantes com www para HTTPS sem www
+
+http://aventurasnoma.com/_ https://aventurasnoma.com/:splat 301!
+https://www.aventurasnoma.com/_ https://aventurasnoma.com/:splat 301!
+
+# Redireciona qualquer acesso HTTP ou HTTPS para HTTPS no domínio principal
+
 http://aventurasnoma.com/_ https://aventurasnoma.com/:splat 301!
 https://www.aventurasnoma.com/_ https://aventurasnoma.com/:splat 301!
 http://www.aventurasnoma.com/* https://aventurasnoma.com/:splat 301!
+
+# Redireciona o domínio .store para o domínio principal
 
 http://aventurasnoma.store/_ https://aventurasnoma.com/:splat 301!
 https://aventurasnoma.store/_ https://aventurasnoma.com/:splat 301!
 http://www.aventurasnoma.store/_ https://aventurasnoma.com/:splat 301!
 https://www.aventurasnoma.store/_ https://aventurasnoma.com/:splat 301!
+
+# Redireciona o domínio .online para o domínio principal
 
 http://aventurasnoma.online/_ https://aventurasnoma.com/:splat 301!
 https://aventurasnoma.online/_ https://aventurasnoma.com/:splat 301!
