@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1730655102,
+	"version": 1730683645,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -65,6 +65,7 @@
 		"images/balao_vilao2-sheet0.png",
 		"images/modal_win-sheet0.png",
 		"images/btn_avancar-sheet0.png",
+		"images/btn_pular_narracao-sheet0.png",
 		"media/fx_teclado.ogg",
 		"media/cena0- lily.ogg",
 		"media/luiz_nar_1_otto.ogg",
